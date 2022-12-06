@@ -10,6 +10,16 @@
 
 ```cat ~/.ssh/{NAME}.pub```
 
+### add key to local ssh agent
+
+```ssh-add -l```
+
+```ssh-add ~/.ssh/{NAME}```
+
+### add key to remote server (not used for GIT)
+
+```ssh-copy-id -i ~/.ssh/{NAME} {USER}@{HOST}```
+
 ### test connection
 
 ```ssh -T git@github.com```
