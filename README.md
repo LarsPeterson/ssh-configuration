@@ -10,6 +10,11 @@
 
 ```cat ~/.ssh/{NAME}.pub```
 
+### start the local authentication agent
+```
+eval `ssh-agent -s`
+```
+
 ### add key to local ssh agent
 
 ```ssh-add -l```
