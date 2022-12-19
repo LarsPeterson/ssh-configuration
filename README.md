@@ -10,7 +10,7 @@
 
 ```cat ~/.ssh/{NAME}.pub```
 
-### start the local authentication agent
+### start the local authentication agent (BASH)
 ```
 eval `ssh-agent -s`
 ```
